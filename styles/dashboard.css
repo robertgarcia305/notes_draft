@@ -1,0 +1,108 @@
+/* fonts */
+@font-face {
+    font-family: poppins-medium;
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: poppins-semibold;
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+/* generals */
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 120px;
+}
+
+h3, p, a {
+    font-family: poppins-medium;
+}
+
+/* wraps */
+.nav-wrap, .content-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content, nav {
+    width: 1440px;
+    max-width: 1440px;
+}
+
+/* nav */
+nav {
+    padding: 10px 10px;
+    border-bottom: 2px solid black;
+    width: 1440px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-wrap {
+    display: flex;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 7px 0px 0px 7px;
+    width: 300px;
+}
+
+.search-wrap button {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.content-wrap {
+    display: flex;
+}
+
+.content {
+    display: flex;
+}
+
+.add-block img {
+    width: 40px;
+}
+
+.left-tab {
+    background-color: #f8f8f8;
+    width: 300px;
+    border-right: 2px solid black;
+    /* temptoral height, delete later */
+    height: 80vh;
+    padding: 10px 20px;
+}
+
+.title {
+    display: flex;
+}
+
+.title img {
+    width: 30px
+}
+
+/* footer */
+.footer-wrap {
+    padding: 50px 0px;
+    background-color: black;
+    color: white;
+}
+
+
+@media (max-width: 1440px) {
+    nav {
+        width: 100%;
+        
+    }
+}
