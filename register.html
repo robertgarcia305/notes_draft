@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<!-- this will be the log in section -->
+<html>
+    <head>
+        <title>Notes Sign Up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <a href="index.php">Logo</a>
+            </div>
+        </nav>
+        <h3>Sign Up Section</h3>
+
+        <form action="register.php" method="post">
+            <div>
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="John Doe" required>
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="text" name="email" placeholder="johndoe@gmail.com" required>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password" required>
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+        <div class="register-block">
+            <p>Or Log In <a href="login.php">Here</a></p>
+        </div>
+    </body>
+</html>
